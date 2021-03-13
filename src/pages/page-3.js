@@ -6,26 +6,24 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import Card from "../components/Card"
 
-const IndexPage = () => (
+const ThirdPage = () => (
   <Layout>
-    <SEO title="Home" />
+    <SEO title="Page three" />
     <div className="Hero">
       <div className="HeroGroup">
           <h1>React.js Project Assignment App for Kingsland University</h1>
-          <p><b>Requirements</b></p>
-          <p>A SPA with a public area and private area with authentication. </p>
-          <p>At least 3 different dynamic pages with DB and standard React stuff.</p>
-          <p>This page is built using the Gatsby framework as oppossed to the 'create-react-app' framework. 
-            </p>
+          <p><b>WELCOME TO PAGE 3</b></p>
+         
+        
           <Link to="/page-2/">Watch video demo of project</Link> 
-           <p><b>Bruce writing code for this assignment.</b></p>
+           <p><b>GATSBY explanation from Net Ninja</b></p>
     
     <StaticImage
-      src="../images/Bruce-writing-code-pic.png"
+      src="../images/net-ninja-SSG-pic.png"
       width={300}
       quality={95}
       formats={["AUTO", "WEBP", "AVIF"]}
-      alt="Bruce King writing code"
+      alt="Gatsby Explanation from net ninja"
       style={{ marginBottom: `1.45rem` }}
     />
 
@@ -63,4 +61,4 @@ const IndexPage = () => (
   </Layout>
 )
 
-export default IndexPage
+export default ThirdPage
